@@ -1,0 +1,278 @@
+*{
+  margin: 0;
+  font-family: arial;
+  border: border-box;
+
+}
+
+.border{ 
+  border: 2px solid transparent;
+
+}
+.border:hover{
+  border: 2px solid white;
+}
+.navbar {
+  height: 60px;
+  background-color: rgb(26, 23, 23);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+
+
+}
+
+
+.nav-logo{
+  height: 50px;
+  width:100px ;
+
+}
+.logo {
+  background-image: url(./nolo.png);
+  height: 50px;
+  width: 100%;
+  background-size: cover;
+color: white;
+margin-top: 10px;
+}
+.f{
+  margin-left:26px;
+  display: flex;
+  margin-top: 10px;
+}
+.t{
+  margin-left: 5px;
+}
+.add-icon{
+  display: flex;
+  margin-left: 3px;
+}
+.nav-address{
+  margin-left: 10px;
+}
+
+.search-box{
+
+ height: 42px;
+  width: 620px;
+  display: flex;
+ justify-content: space-evenly;
+  justify-content: center;
+margin-top: 8px;
+  border-radius: 4px;
+  margin-left: 15px;
+}
+
+.search-box:hover{
+
+
+  border: 2px solid orange;
+}
+
+.dear{
+  background-color: #f0e8e8;
+  width: 60px;
+  text-align: center;
+  border-radius: 4px 0 0 4px;
+  border: none;
+}
+
+.input-type{
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+
+}
+.dear-icon{
+  justify-content: center;
+  font-size: 1.2rem;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  background-color: #e6821e;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+header{
+  justify-content: center;
+  align-items: center;
+margin-top: 5px;
+  
+}
+
+.nav-signing{
+  margin-top: 10px;
+}
+
+.nav-1{
+font-size: 0.85rem;
+font-weight: 700;
+}
+
+span{
+  font-size: 0.7rem;
+}
+.nav-card{
+  margin-top: 12px;
+  font-size: 2rem;
+  
+  
+  display: flex;
+
+}
+.y{
+  font-size: 1.2rem;
+  margin-top: 15px;
+}
+
+
+/* panel  */
+.panel{
+  height: 40px;
+  background-color: #222f3d;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.panel-opps p{
+  display: inline;
+  margin-left: 15px;
+  
+
+}
+.panel-opps p:hover{
+
+border: 1px solid white;
+}
+.panel-opps{
+  width: 70%;
+  font-size: 0.85rem;
+}
+
+.panel-deals{
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.hero-section{
+background-image: url(./81hIlE5xocL._SX3000_.jpg);
+height: 390px;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items:flex-end;
+
+}
+
+.hero-ms{
+  background-color: #fff;
+  color: black;
+  font-size: 0.85rem;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  display: flex;
+  width: 97%;
+  /* margin-bottom: px; */
+}
+
+.hero-ms a{
+color: aqua;
+}
+ 
+
+.shop-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #fce45a;
+ 
+  
+  
+}
+
+.box{
+  /* border: 2px solid black; */
+  height: 400px;
+  width: 23%;
+  background-color: #fff;
+  padding: 20px 0px 15px ;
+  margin-top: 15px;
+  
+}
+
+.box-img{
+  height:350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+}
+
+.box-container{
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.box-container p{
+  color: aqua;
+}
+
+
+/* fot */
+
+footer{
+  margin-top: 15px;
+
+}
+.foot-panel1{
+
+  background-color:#37475a;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+ul{
+  margin-top: 10px;
+}
+
+
+ul p{
+
+margin-top: 5px;
+font-size: 20px;
+
+}
+ul a{
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 10px;
+}
+.foot-panel2{
+
+  background-color:#222f3d ;
+  color: white;
+display: flex;
+justify-content: space-evenly;
+height: 300px;
+
+
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+}
